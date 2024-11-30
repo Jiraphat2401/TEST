@@ -1,74 +1,37 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>แนะนำตัว</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #0078D7;
-            color: white;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            background: white;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .profile-pic {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            display: block;
-            margin: 0 auto 20px;
-        }
-        h1, h2 {
-            text-align: center;
-        }
-        p {
-            text-align: justify;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem 0;
-            background-color: #0078D7;
-            color: white;
-            position: absolute;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <title>Jiraphat Kerdmolee - Profile</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>ยินดีต้อนรับสู่เว็บไซต์ของฉัน</h1>
+        <div class="container">
+            <img src="profile.jpg" alt="Jiraphat Kerdmolee" class="profile-img">
+            <h1>Jiraphat Kerdmolee</h1>
+            <hr class="subtitle-line">
+            <h3>67130500069</h3>
+            <p>Student at King Mongkut's University of Technology Thonburi (KMUTT)</p>
+        </div>
     </header>
-    <div class="container">
-        <img src="profile.jpg" alt="รูปโปรไฟล์" class="profile-pic">
-        <h2>เกี่ยวกับฉัน</h2>
-        <p>สวัสดีครับ/ค่ะ ฉันชื่อ [ชื่อของคุณ] เป็นคนที่หลงใหลใน [ความสนใจของคุณ] และมีความเชี่ยวชาญในด้าน [ทักษะหรืออาชีพของคุณ] ฉันเชื่อในความสำคัญของการเรียนรู้ตลอดชีวิตและการแบ่งปันความรู้กับผู้อื่น</p>
-
-        <h2>ความสนใจ</h2>
-        <p>ฉันชอบ [กิจกรรมที่คุณสนใจ เช่น การอ่านหนังสือ, การเขียนโค้ด, การเดินทาง] และมีเป้าหมายที่จะพัฒนาตัวเองในทุก ๆ ด้าน</p>
-
-        <h2>ติดต่อฉัน</h2>
-        <p>คุณสามารถติดต่อฉันได้ที่ <a href="mailto:your.email@example.com">your.email@example.com</a> หรือผ่านโซเชียลมีเดีย</p>
-    </div>
-    <footer>
-        <p>&copy; 2024 [ชื่อของคุณ]. All Rights Reserved.</p>
-    </footer>
+    <main>
+        <section class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I am chill guy just want to be happy every day.</p>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <ul>
+                    <li><strong>Phone:</strong> 065-914-6342</li>
+                    <li><strong>Email:</strong> <a href="mailto:jiraphat.kerd@mail.kmutt.ac.th">jiraphat.kerd@mail.kmutt.ac.th</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
