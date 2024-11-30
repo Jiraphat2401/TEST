@@ -27,13 +27,6 @@ header h1 {
     margin-bottom: 0.1rem;
 }
 
-header h3 {
-    margin-top: 0.1rem; /* Reduces space above the subtitle */
-    font-size: 1rem;
-    font-weight: 400;
-    color: #e0e0e0;
-}
-
 header p {
     margin: 0.5rem 0 0;
     font-size: 1rem;
