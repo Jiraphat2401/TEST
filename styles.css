@@ -27,6 +27,13 @@ header h1 {
     margin-bottom: 0.1rem;
 }
 
+header h3 {
+    margin-top: 0.1rem; /* Reduces space above the subtitle */
+    font-size: 1rem;
+    font-weight: 400;
+    color: #e0e0e0;
+}
+
 header p {
     margin: 0.5rem 0 0;
     font-size: 1rem;
@@ -49,11 +56,6 @@ h2 {
     margin-bottom: 1rem;
 }
 
-ul {
-    list-style: disc inside;
-    padding-left: 1rem;
-}
-
 .contact a.button {
     display: inline-block;
     background: #0077cc;
@@ -69,26 +71,9 @@ ul {
     background: #005fa3;
 }
 
-footer {
-    background: #f4f4f4;
-    text-align: center;
-    padding: 1rem 0;
-    margin-top: 2rem;
-    font-size: 0.9rem;
-}
-
 header .subtitle-line {
     width: 80%;
     margin: .3rem auto;
     border: 0;
     border-top: 1px solid #e0e0e0;
-}
-
-.university {
-    padding: 0.2rem 0.5rem; /* Adds padding inside the background */
-    margin-left: 2.2rem; /* Indents the university name */
-    background-color: #f4f4f4; /* Optional: Highlight with a background color */
-    border-radius: 5px; /* Adds rounded corners */
-    display: inline-block; /* Ensures proper spacing for inline text */
-    font-style: italic; /* Optional: Adds a stylish italic font for emphasis */
 }
